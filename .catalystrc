@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "6947000000008001",
+      "name": "socialmedia",
+      "domain": {
+        "id": "50023594386",
+        "name": "socialmedia-60033848152.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60033848152",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
