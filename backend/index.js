@@ -46,7 +46,7 @@ cloudinary.v2.config({
 app.use(express.json());
 app.use(cookieParser());
 
-const port = process.env.X_ZOHO_CATALYST_LISTEN_PORT;
+const port = process.env.port;
 
 // to get all chats of user
 app.get("/api/messages/chats", isAuth, async (req, res) => {
